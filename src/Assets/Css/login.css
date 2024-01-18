@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.login_background {
+  width: 100%;
+  position: absolute;
+  min-height: 100vh;
+  overflow: hidden;
+  background: url("../Images/5172658.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.login_card {
+  width: 40vh;
+  height: 45vh;
+  background-color: rgb(35, 35, 35, 0.0);
+  margin-top: 10%;
+  margin-left: 0%;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  padding-top: 180px;
+  color: aliceblue;
+  transition: margin 0.5s ease;
+}
+
+.login_card {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.input {
+
+  color: #8707ff;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  min-width: 280px;
+  min-height: 30px;
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.labelx {
+  margin-left: -55%;
+
+}
+
+.button {
+  background-color: #ffffff00;
+  color: #fff;
+  min-width: 150px;
+  min-height: 35px;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: center;
+  transition: all 0.6s ease;
+  margin-left: 35%;
+  margin-top: 3%;
+
+}
+
+.button:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
